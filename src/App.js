@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import Portfolio from "./pages/Portfolio";
 
+
+
 const App = () => {
  
   return (
@@ -16,6 +18,7 @@ const App = () => {
           <Route path={"/portfolio"} component={Portfolio} />
         </Switch>
     </Router>
+
   );
 };
 
