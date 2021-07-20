@@ -19,7 +19,7 @@ Fullstack (JWT Authentication & Authorization example):
 
 > [React + Node.js Express](https://bezkoder.com/react-express-authentication-jwt/)
 
-This project was bootstrapped with [Create Maurya](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create Kleck](https://github.com/facebook/create-react-app).
 
 ### Set port
 .env

@@ -1,7 +1,6 @@
 import React from "react";
 
-
-const Home = () => {
+const Mission = () => {
 
 
   return (
@@ -11,4 +10,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Mission;

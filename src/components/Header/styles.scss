@@ -1,46 +1,23 @@
 $navbar-height: 70px;
 
 nav.navbar {
-  padding: 0 14px;
+  padding: 0;
   margin: none;
   height: $navbar-height;
   .container-fluid {
+    padding: 0 40px;
     display: flex;
     height: inherit;
-    .navbar-brand {
-      height: inherit;
-      font-size: 1.3em;
-      font-weight: 400;
-      padding: 0;
-      display: flex;
-      align-items: center;
-    }
     .header-logo {
-      display: flex;
-      align-items: center;
-      height: 34px;
-      margin: 0 auto;
-    }
-    .navbar-collapse {
-      height: inherit;
-    }
-    .nav-item.dropdown {
-      position: relative;
-      .dropdown-menu {
-        position: absolute;
-        left: -60px;
-
-      }
+      height: 28px;
     }
   }
 }
 
 nav.navbar {
+  background: none;
   .container {
-    .navbar-brand {
-    }
-    .header-logo {
-    }
+    background: none;
   }
 }
 
@@ -48,12 +25,6 @@ nav.navbar {
 //   background: gold;
 //   .container-fluid {
 //     background: red;
-//     .navbar-brand {
-//       background: grey;
-//     }
-//     .collapse {
-//       background: green;
-//     }
 //     .header-logo {
 //       height: 34px;
 //       margin: 0 auto;
