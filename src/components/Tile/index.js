@@ -17,11 +17,14 @@ const Tile = () => {
   }
 
   const listItems = investmentsJson.map((item) => (
-    <div className="tile" key={item.id} style={{ backgroundColor: item.color }}>
-      <h2>{item.category}</h2>
-      <h1>{item.name}</h1>
-      <p>{item.description}</p>
-      <div className="person">{item.person}</div>
+    <div key={item.id}>
+      <div className="tile" style={{ backgroundColor: item.color }}></div>
+      <div className="content">
+        <h2>{item.category}</h2>
+        <h1>{item.name}</h1>
+        <p>{item.description}</p>
+        <div className="person">{item.person}</div>
+      </div>
     </div>
   ));
   return (

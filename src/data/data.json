@@ -5,7 +5,8 @@
     "category": "Investment Category 1",
     "person": "Stephanie Glick",
     "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
-    "dateTime": "3 hours ago"
+    "dateTime": "3 hours ago",
+    "color":"blue"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "category": "Investment Category 2",
     "person": "Cho Sun Park",
     "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.   ",
-    "dateTime": "4 days ago"
+    "dateTime": "4 days ago",
+    "color":"green"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "category": "Investment Category 3",
     "person": "Sumeet Mohdi",
     "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
-    "dateTime": "Yesterday at 2:00"
+    "dateTime": "Yesterday at 2:00",
+    "color":"red"
   },
   {
     "id": 4,
@@ -29,6 +32,16 @@
     "category": "Investment Category 4",
     "person": "Carlos Juarez",
     "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
-    "dateTime": "4 days ago"
+    "dateTime": "4 days ago",
+    "color":"gold"
+  },
+  {
+    "id": 5,
+    "name":"Organization 5",
+    "category": "Investment Category 2",
+    "person": "Yogi Bear",
+    "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
+    "dateTime": "4 days ago",
+    "color":"indigo"
   }
 ]
