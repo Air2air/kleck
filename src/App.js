@@ -7,7 +7,6 @@ import Portfolio from "./pages/Portfolio";
 
 const App = () => {
  
-
   return (
     <Router>
       <Header />

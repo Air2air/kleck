@@ -4,6 +4,8 @@
 @import "./text.scss";
 @import "./forms.scss";
 
-body {
-
+body,
+html {
+  height: 100%;
+  background-color: $site-background;
 }

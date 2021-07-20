@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.20.0",
     "bootstrap": "^4.6.0",
+    "framer-motion": "^4.1.17",
     "gh-pages": "^3.2.3",
     "react": "^16.13.1",
     "react-addons-transition-group": "^15.6.2",
