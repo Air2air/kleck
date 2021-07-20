@@ -1,6 +1,7 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import logo from "./../../images/logo.svg";
 import { motion } from "framer-motion";
+import "./styles.scss";
 
 const Home = () => {
   return (
@@ -8,14 +9,10 @@ const Home = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: .5 }}
+        transition={{ duration: 4 }}
+        className="full-screen"
       >
-        <Container>
-          <h1>Home stuff here.</h1>
-          <p>
-            <Button href="#portfolio"> See Portfolio</Button>
-          </p>
-        </Container>
+        <img className="logo" src={logo} alt="Kleck" />
       </motion.div>
     </>
   );
