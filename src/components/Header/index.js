@@ -9,17 +9,17 @@ const Header = () => {
 
   return (
     <Navbar expand="md" className="navbar navbar-expand-lg mb-5 navbar-dark" >
-      <Container fluid>
-        <Navbar.Brand href={githubPagesUrl + "/"}>
+      <Container fluid className="d-flex justify-content-center">
+        <Nav.Link href={githubPagesUrl + "/"}>
           <img className="header-logo" src={logo} alt="Kleck" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </Nav.Link>
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto mr-4 " navbar-dark>
             <Nav.Link href="#mission">Mission</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );
