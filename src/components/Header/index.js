@@ -2,14 +2,13 @@ import React from "react";
 
 import { Nav, Navbar, Container } from "react-bootstrap";
 import logo from "./../../images/logo.svg";
-
 import "./styles.scss";
 
 const Header = () => {
   const githubPagesUrl = "/kleck-client/#";
 
   return (
-    <Navbar expand="md">
+    <Navbar expand="md" className="mb-5">
       <Container fluid>
         <Navbar.Brand href={githubPagesUrl + "/"}>
           <img className="header-logo" src={logo} alt="Kleck" />

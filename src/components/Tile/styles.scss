@@ -1,0 +1,26 @@
+$tile-height: auto;
+
+.portfolio-wrapper {
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  stackgrid {
+    div {
+      span {
+        margin: 0!important;
+        .tile {
+          padding: 20px;
+          margin: 0!important;
+          height: $tile-height;
+        }
+      }
+    }
+  }
+}
+
+// .portfolio-wrapper {
+//   background: gold;
+//   .tile {
+//     background-color: red;
+//   }
+// }

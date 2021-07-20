@@ -1,29 +1,33 @@
 [
   {
     "id": 1,
+    "name":"Organization 1",
     "category": "Investment Category 1",
-    "manager": "Stephanie Glick",
-    "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
+    "person": "Stephanie Glick",
+    "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
     "dateTime": "3 hours ago"
   },
   {
     "id": 2,
+    "name":"Organization 2",
     "category": "Investment Category 2",
-    "manager": "Cho Sun Park",
-    "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
+    "person": "Cho Sun Park",
+    "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.   ",
     "dateTime": "4 days ago"
   },
   {
     "id": 3,
+    "name":"Organization 3",
     "category": "Investment Category 3",
-    "manager": "Sumeet Mohdi",
+    "person": "Sumeet Mohdi",
     "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
     "dateTime": "Yesterday at 2:00"
   },
   {
     "id": 4,
+    "name":"Organization 4",
     "category": "Investment Category 4",
-    "manager": "Carlos Juarez",
+    "person": "Carlos Juarez",
     "description": "Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  Description text here.  ",
     "dateTime": "4 days ago"
   }
