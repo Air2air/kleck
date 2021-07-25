@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./../../images/kleck_logo_arrow.svg";
+import logo from "./../../images/kleck.svg";
 import { motion } from "framer-motion";
 import "./styles.scss";
 
