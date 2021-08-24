@@ -12,7 +12,8 @@
   @media only screen and (min-width: 801px) {
     .logo-div {
       width: 25vw;
-      height: 25vw;
+      height: 25vh;
+      margin-bottom: 7vh;
       .logo {
         width: inherit;
         height: inherit;
@@ -27,6 +28,7 @@
       .logo {
         width: inherit;
         height: inherit;
+        margin-bottom: 7vh;
       }
     }
   }
@@ -34,7 +36,8 @@
   @media only screen and (max-width: 600px) {
     .logo-div {
       width: 40vw;
-      height: 40vw;
+      height: 40vh;
+      margin-bottom: 7vh;
       .logo {
         width: inherit;
         height: inherit;
