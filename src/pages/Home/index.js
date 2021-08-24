@@ -6,14 +6,16 @@ import "./styles.scss";
 const Home = () => {
   return (
     <>
-      <motion.div
-        initial={{ rotate:90, opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 4 }}
-        className="full-screen"
-      >
+      <div className="full-screen">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 4 }}
+          className="logo-div"
+        >
         <img className="logo" src={logo} alt="Kleck" />
-      </motion.div>
+        </motion.div>
+      </div>
     </>
   );
 };

@@ -4,9 +4,6 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "axios": "^0.20.0",
     "bootstrap": "^4.6.0",
     "framer-motion": "^4.1.17",
@@ -21,7 +18,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "gcp-predeploy": "find ./build -name '\\[...*' -exec bash -c 'mv \"$1\" \"${1/.../@@@}\"' -- {} \\;",
+    "gcp-build": "find ./build -name '\\[@@@*' -exec bash -c 'mv \"$1\" \"${1/@@@/...}\"' -- {} \\;",
+    "gcp-deploy": "npm run build && npm run gcp-predeploy && gcloud app deploy -q --project kleck-website"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,8 +39,10 @@
     ]
   },
   "devDependencies": {
-    "redux-devtools-extension": "^2.13.8",
-    "sass-loader": "^12.1.0"
+    "eslint": "7.30.0",
+    "eslint-config-next": "11.0.1",
+    "sass-loader": "^12.1.0",
+    "typescript": "^4.3.5"
   },
   "resolutions": {
     "webpack": "5.41.1"
