@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <div className="full-screen">
         <motion.div
-          initial={{ opacity: 0 }}
+          initial={{ rotate:90, opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 4 }}
           className="logo-div"
